@@ -48,7 +48,7 @@ const ContactForm = () => {
         <div class="phone details">
           <i class="fas fa-phone-alt"></i>
           <div class="topic">Phone</div><br/>
-          <div class="text-one"><a href="tel:3234035422"> +1 (323) 403-5422</a></div>
+          <div class="text-one"><a href="tel:6502817672"> +1 (650) 281-7672</a></div>
         </div>
 
         <div class="email details">

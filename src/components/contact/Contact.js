@@ -24,7 +24,7 @@ const Contact = () => {
             </Fade>
 
             <Fade top>
-                    <h2>+1 (323) 403-5422</h2>
+            <div class="text-one"><a href="tel:6502817672"><h2>+1 (650) 281-7672</h2> </a></div>
             </Fade>
 
             </div>

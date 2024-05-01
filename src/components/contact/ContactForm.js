@@ -4,7 +4,7 @@ import React, { useRef } from "react";
 // import { AiOutlineMail } from 'react-icons/ai';
 import { FaHeadphonesAlt } from 'react-icons/fa';
 import { MdAlternateEmail } from 'react-icons/md';
-import { BsFillPinMapFill } from 'react-icons/bs';
+// import { BsFillPinMapFill } from 'react-icons/bs';
 
 // import Fade from 'react-reveal/Fade';
 
@@ -79,7 +79,7 @@ const ContactForm = () => {
         <div className="contact-card-icon">
           <h3><FaHeadphonesAlt /></h3> 
           <p>CALL US</p>
-          <a href="tel:3234035422">  (323) 403-5422</a>
+          <a href="tel:6502817672">  (650) 281-7672</a>
         </div>
     </div>
 
@@ -87,17 +87,17 @@ const ContactForm = () => {
         <div className="contact-card-icon">
           <h3><MdAlternateEmail /></h3> 
           <p>EMAIL</p>
-          <h5>info@bakersfieldrehab.biz</h5>
+          <h5>c.harmison@vetsafety.net</h5>
         </div>
     </div>
 
-    <div className="contact-card">
+    {/* <div className="contact-card">
         <div className="contact-card-icon">
           <h3><BsFillPinMapFill /></h3> 
           <p>LOCATION</p>
           <h5>2828 H street #H, Bakersfield, CA 93301</h5>
         </div>
-    </div>
+    </div> */}
 
 
 
