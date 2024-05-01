@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.mh-cards-header {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.mh-cards-header h1 {
+  padding: .5rem;
+}
+
+.mh-cards-header p {
+  font-size: 14px;
+}
+
+.mh-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.mh-card {
+  width: 25%;
+  height: auto;
+  padding: .5rem;
+  text-align: center;
+  box-shadow: 6px 8px 5px -5px rgba(0,0,0,0.31);
+  -webkit-box-shadow: 6px 8px 5px -5px rgba(0,0,0,0.31);
+  -moz-box-shadow: 6px 8px 5px -5px rgba(0,0,0,0.31);
+}
+
+.mh-card h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.mh-card h2 {
+  font-size: 1rem;
+  color: var(--primary-dark);
+  text-align: center;
+}
+
+.mh-card p {
+  color: var(--primary-dark);
+  text-align: center;
+  font-size: 12px;
+  padding: .5rem;
+}
+
+.mh-card img {
+  width: 20%;
+}
+
+@media screen and (max-width:940px) {
+  .mh-card {
+    width: 40%;
+  }
+
+  .mh-cards-header h1 {
+    font-size: 1.2rem;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+  .mh-card {
+    width: 100%;
+    padding: .5rem;
+  }
+}
+

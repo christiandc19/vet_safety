@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+
+.servicesMH {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+}
+
+.servicesMH-content {
+    padding: 3rem 1rem;
+}
+
+.servicesMH-header {
+    margin: auto;
+    text-align: center;
+}
+
+.servicesMH-header h1 {
+    color: var(--secondary-dark);
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+.servicesMH-header h2 {
+    color: #16394f;
+    font-size: 2rem;
+    font-family: 'Playfair', serif;
+    padding: .5rem 0;
+}
+
+.servicesMH-header p {
+    color: #16394f;
+    font-size: 14px;
+}
+
+.MH-cards {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.MH-cards-contents {
+    width: 25%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.63);
+    -moz-box-shadow: 4px 4px 10px -3px rgba(0,0,0,0.63);
+}
+
+.MH-cards-contents img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.MH-cards h1 {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--primary-dark);
+    padding: .5rem 0;
+}
+
+.MH-cards p {
+    text-align: center;
+    font-size: 14px;
+    color: var(--primary-dark);
+    padding: .5rem;
+}
+
+.MH-cards-btn {
+    text-align: center;
+}
+
+.MH-cards-btn button {
+    text-align: center;
+    padding: .5rem 1.5rem;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+
+
+@media screen and (max-width: 940px) {
+    .MH-cards {
+        flex-wrap: wrap;
+    }
+
+    .MH-cards-contents {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .MH-cards-contents {
+        width: 100%;
+    }
+}
