@@ -17,7 +17,7 @@ const Hero = () => {
     <p>WELCOME TO</p>
     </Zoom>
     <Zoom duration={1000}>
-      <h1>VETSAFETY</h1>
+      <h1>VET SAFETY NET</h1>
     </Zoom>
     {/* <Zoom duration={3000}>
     <h1>REHAB</h1>

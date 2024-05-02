@@ -11,11 +11,11 @@ const MenusSA = () => {
     <>
           <div className="mh-cards-header container">
         <h1>
-          VETSAFETY TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
+          VET SAFETY NET TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
           PROGRAMS
         </h1>
         <p>
-          At VetSafetyTreatment Center, clients receive individual
+          At Vet Safety NetTreatment Center, clients receive individual
           therapy alongside a range of additional treatments, including relapse
           prevention, trauma therapy, mindfulness meditation, transportation,
           yoga, and more. We offer support that clients need to allow them to

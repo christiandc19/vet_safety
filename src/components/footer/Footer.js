@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="logo-footer">
               <img
                 src={logo}
-                alt="VetSafetyLogo"
+                alt="Vet Safety NetLogo"
                 loading="lazy"
               />
               {/* <h1>Joser Forever</h1> */}
@@ -156,7 +156,7 @@ const Footer = () => {
           </div>
 
           <p className="copyright">
-            <p>&copy; 2024 VetSafety. All rights reserved</p>
+            <p>&copy; 2024 Vet Safety Net. All rights reserved</p>
           </p>
         </div>
       </div>

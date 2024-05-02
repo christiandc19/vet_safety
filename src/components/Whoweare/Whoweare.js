@@ -14,7 +14,7 @@ const Whoweare = () => {
 
             <h1>WHO WE ARE</h1>
             <h2>Empowering Veterans on the Road to Recovery</h2>
-            <p>Welcome to our Addiction and Mental Health Rehab Center dedicated to serving veterans. At VetSafety, we understand the unique challenges that veterans may face in their journey toward recovery. Our commitment is rooted in the belief that every veteran deserves the opportunity for healing and a brighter future.</p>
+            <p>Welcome to our Addiction and Mental Health Rehab Center dedicated to serving veterans. At Vet Safety Net, we understand the unique challenges that veterans may face in their journey toward recovery. Our commitment is rooted in the belief that every veteran deserves the opportunity for healing and a brighter future.</p>
             <p>
             We strive to make overcoming addiction achievable by focusing on your sobriety. We use proven medical practices and a comprehensive approach to healing through better guidance, greater compassion, and a stronger community.
             </p>

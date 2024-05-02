@@ -47,7 +47,7 @@ const Navbar = () => {
             <Link to="/">
               <img
                 src={logo}
-                alt="VetSafetyLogo"
+                alt="Vet Safety NetLogo"
                 loading="lazy"
               />
             </Link>
