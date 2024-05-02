@@ -13,17 +13,17 @@ const Hero = () => {
 	<div class="imagesContainer">
 
   <div className="hero-caption">
-  <Zoom duration={5000}>
+  <Zoom duration={1000}>
     <p>WELCOME TO</p>
     </Zoom>
-    <Zoom duration={1000}>
+    <Zoom duration={3000}>
       <h1>VET SAFETY NET</h1>
     </Zoom>
     {/* <Zoom duration={3000}>
     <h1>REHAB</h1>
     </Zoom> */}
 
-    <Zoom duration={4000}>
+    <Zoom duration={5000}>
     <h2>Restoring Heroes, Rebuilding Lives: A Rehab Haven for Veterans</h2>
     </Zoom>
 
