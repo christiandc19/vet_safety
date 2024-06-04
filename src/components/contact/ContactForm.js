@@ -79,7 +79,7 @@ const ContactForm = () => {
         <div className="contact-card-icon">
           <h3><FaHeadphonesAlt /></h3> 
           <p>CALL US</p>
-          <a href="tel:6502817672">  (650) 281-7672</a>
+          <a href="tel:9097399620">  (909) 739-9620</a>
         </div>
     </div>
 
@@ -87,7 +87,7 @@ const ContactForm = () => {
         <div className="contact-card-icon">
           <h3><MdAlternateEmail /></h3> 
           <p>EMAIL</p>
-          <h5>c.harmison@vetsafety.net</h5>
+          <h5>r.bretado@vetsafety.net</h5>
         </div>
     </div>
 

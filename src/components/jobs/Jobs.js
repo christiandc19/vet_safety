@@ -5,7 +5,7 @@ import './Jobs.css'
 
 import JobSection from '../../components/jobs/JobSection'
 
-import Contact2 from '../contact/Contact2'
+import Contact2 from '../contact/ContactForm'
 
 const Jobs = () => {
     return (

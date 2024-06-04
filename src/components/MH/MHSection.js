@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Contact2 from '../contact/Contact2'
+import Contact2 from '../contact/ContactForm'
 import Menus from '../menus/Menus';
 
 
