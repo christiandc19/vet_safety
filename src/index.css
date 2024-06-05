@@ -4,8 +4,15 @@
   --primary-color: rgb(229, 174, 88);
   --primary-dark: #122136;
   --secondary-color: #791304;
-
 }
+
+@font-face {
+  font-family: armalite;
+  src: url("./components/fonts/armalite.ttf");
+  font-display: swap; 
+}
+
+
 
 span {
   color: var(--secondary-color);
