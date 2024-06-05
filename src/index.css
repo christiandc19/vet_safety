@@ -7,13 +7,6 @@
 
 }
 
-@font-face {
-  font-family: "armalite";
-  src: local("armalite"),
-   url("./components/fonts/armalite.ttf") format("truetype");
-  font-weight: bold;
- }
-
 span {
   color: var(--secondary-color);
 }

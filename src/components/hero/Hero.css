@@ -1,6 +1,13 @@
 
 /* img tags */
 
+@font-face {
+  font-family: "armalite";
+  src: local("armalite"),
+   url("../fonts/armalite.ttf") format("truetype");
+  font-weight: bold;
+ }
+
 .imagesContainer {
 	width: 100%;
 	height: 100vh;
@@ -24,7 +31,7 @@
   color: rgb(255, 255, 255);
   font-size: 5rem;
   text-transform: uppercase;
-  font-family: 'armalite';
+  font-family: "armalite";
   line-height: 3.7rem;
 }
 
