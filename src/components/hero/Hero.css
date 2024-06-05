@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+@font-face {
+  font-family: "armalite";
+  src: local("armalite"),
+   url("../fonts/armalite.ttf") format("truetype");
+  font-weight: bold;
+ }
+
 /* img tags */
 
 .imagesContainer {
@@ -23,9 +30,9 @@
 
 .hero-caption h1 {
   color: rgb(255, 255, 255);
-  font-size: 4rem;
+  font-size: 5rem;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'armalite', sans-serif;
   line-height: 3.7rem;
 }
 
@@ -36,7 +43,7 @@
 
 .hero-caption h2 {
   color: white;
-  font-size: 1rem;
+  font-size: .8rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: .3rem 0 0 0;
@@ -110,18 +117,5 @@
     font-size: 3rem;
   }
 
-  .hero-caption h2 {
-    font-size: 1rem;
-  }
 }
 
-@media screen and (max-width: 450px) {
-  .hero-caption h1 {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-
-  .hero-caption h2 {
-    font-size: 1rem;
-  }
-}
