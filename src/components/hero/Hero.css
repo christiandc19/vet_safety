@@ -1,12 +1,12 @@
 
 /* img tags */
 
-/* @font-face {
+@font-face {
   font-family: "armalite";
   src: local("armalite"),
    url("../fonts/armalite.ttf") format("truetype");
   font-weight: bold;
- } */
+ }
 
 .imagesContainer {
 	width: 100%;
