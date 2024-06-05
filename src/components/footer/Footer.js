@@ -67,8 +67,8 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/team">
-                  <p>Our Team</p>
+                <Link to="/contact">
+                  <p>Contact Us</p>
                 </Link>
               </LinkRoll>
             </div>
@@ -107,8 +107,8 @@ const Footer = () => {
                 smooth={true}
                 duration={500}
               >
-                <Link to="/contact">
-                  <p>Contact</p>
+                <Link to="/treatment">
+                  <p>Treatment</p>
                 </Link>
               </LinkRoll>
             </div>

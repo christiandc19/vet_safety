@@ -24,7 +24,7 @@ const Contact = () => {
             </Fade>
 
             <Fade top>
-            <div class="text-one"><a href="tel:9097399620"><h2>+1 (909) 739-9620</h2> </a></div>
+            <div class="text-one"><a href="tel:9097399620"><h2>+1  (323) 638-5904</h2> </a></div>
             </Fade>
 
             </div>
