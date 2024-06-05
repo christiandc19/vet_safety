@@ -90,6 +90,11 @@ span {
   color: var(--primary-color);
 }
 
+.contact2-header {
+  padding: 1rem;
+  text-align: center;
+}
+
 
 /* SUBMENU */
 
@@ -210,6 +215,7 @@ margin: 0px 5px;
 .job-link a:hover {
   color: #46a828;
 }
+
 
 @media screen and (max-width:940px) {
 

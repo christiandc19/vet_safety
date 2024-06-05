@@ -15,9 +15,9 @@ const OxycodoneSection = () => {
                 Oxycodone delivers a sensation or feeling of euphoria, sedation, reduction of anxiety, and relaxation. It is no coincidence that as the prescriptions of Oxycodone increased in recent years, so too have addiction rates.
                 </p>
 </div>
-<div className="contact2-header contact2-container">
+<div className="contact2-header  contact2-container container">
             <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+            <p>Our Addiction and Recovery Support team is available to assist you.</p>
         </div>
 <ContactForm />
 

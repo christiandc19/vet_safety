@@ -1,6 +1,5 @@
 import React from "react";
-import { Link as LinkRoll } from "react-scroll";
-import { Link } from 'react-router-dom';
+
 import Zoom from 'react-reveal/Zoom';
 
 import "./Hero.css";
@@ -19,23 +18,16 @@ const Hero = () => {
     <Zoom duration={3000}>
       <h1>VET SAFETY NET</h1>
     </Zoom>
-    {/* <Zoom duration={3000}>
-    <h1>REHAB</h1>
-    </Zoom> */}
 
     <Zoom duration={5000}>
     <h2>Restoring Heroes, Rebuilding Lives: A Rehab Haven for Veterans</h2>
     </Zoom>
 
-    <Zoom duration={4000}>
-    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-      <Link to="/contact">
-            <div className="hero-btn">
-              <button>CALL US</button>
-            </div>
-          </Link>
-      </LinkRoll>
-      </Zoom>
+
+    <Zoom duration={5000}>
+        <a href="tel:9097399620"><h3>+1  (323) 638-5904</h3> </a>
+    </Zoom>
+
 
   </div>
 

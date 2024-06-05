@@ -13,9 +13,9 @@ const KratomSection = () => {
                 A huge part of what makes panic attack disorder so difficult to cope with is a panic disorder’s psychological byproduct of having to live every day in constant fear of the next attack. 
                 </p>
 </div>
-        <div className="contact2-header contact2-container">
+        <div className="contact2-header  contact2-container container">
             <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+            <p>Our Addiction and Recovery Support team is available to assist you.</p>
         </div>
 <ContactForm />
 

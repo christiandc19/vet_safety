@@ -14,9 +14,9 @@ const AnxietySection = () => {
                 Those with anxiety disorders look for drugs or alcohol to cope with day-to-day life. This can result in the worsening of symptoms, straining of relationships with others, and the obstruction of performing well at work or school.
                 </p>
 </div>
-<div className="contact2-header contact2-container">
+<div className="contact2-header  contact2-container container">
             <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+            <p>Our Addiction and Recovery Support team is available to assist you.</p>
         </div>
 <ContactForm />
 

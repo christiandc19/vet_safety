@@ -13,9 +13,9 @@ const MethSection = () => {
                 The meth addiction crisis in the United States continues to prove that the long-term effects of meth use can be devastating, and range from dental problems, psychosis, brain damage, organ problems, and even death.
                 </p>
 </div>
-<div className="contact2-header contact2-container">
+<div className="contact2-header  contact2-container container">
             <h1>DO YOU NEED URGENT HELP?</h1>
-            <p>Our Addiction and Recovery Support team is available 24 hours a day 7 Days a week.</p>
+            <p>Our Addiction and Recovery Support team is available to assist you.</p>
         </div>
 <ContactForm />
 
