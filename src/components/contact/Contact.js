@@ -1,20 +1,21 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
-
-import ContactForm from "./ContactForm";
+import {Helmet} from "react-helmet";
 import './Contact.css'
-// import Wave from '../../assets/waves.svg'
 
 
 const Contact = () => {
 
     return (
-      <>
+    <>
 
-<div className='contact-hero main-menu'>
-{/* <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div> */}
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>CONTACT US - VET SAFETY NET</title>
+        <link rel="canonical" href="https://www.vetsafety.net/contact" />
+    </Helmet>
+
+    <div className='contact-hero main-menu'>
             <div className="contact-hero-content">
             <Fade top>
                     <h1>HAVE SOME QUESTIONS?</h1>
@@ -30,9 +31,8 @@ const Contact = () => {
             </div>
      </div>
 
-      <ContactForm />
 
-      </>
+  </>
     )
 }
 

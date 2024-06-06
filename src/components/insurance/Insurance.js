@@ -1,29 +1,29 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
-
 import './Insurance.css'
-// import Wave from '../../assets/waves.svg'
-
-
+import {Helmet} from "react-helmet";
 
 const Insurance = () => {
 
     return (
-            <>
-            <div className='insurance main-menu'>
-            {/* <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div> */}
-                        <div className="insurance-content">
-                            <Fade top>
-                                <h1>INSURANCE</h1>
-                            </Fade>
-                        </div>
-                    </div>
+    <>
+    <Helmet>
+        <meta charSet="utf-8" />
+            <title>INSURANCE - VET SAFETY NET</title>
+            <link rel="canonical" href="https://www.vetsafety.net/insurance" />
+    </Helmet>
+
+    <div className='insurance'>
+            <div className="insurance-content">
+                <Fade top>
+                    <h1>INSURANCE</h1>
+                </Fade>
+            </div>
+    </div>
+
+    </>
 
 
-
-            </>
     )
 
     }

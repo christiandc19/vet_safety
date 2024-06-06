@@ -1,11 +1,18 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-
+import {Helmet} from "react-helmet";
 import './Anxiety.css'
 
 const Anxiety = () => {
     return (
-        <div className='anxiety submenu'>
+    <>
+    <Helmet>
+                <meta charSet="utf-8" />
+                <title>ANXIETY DISORDER - VET SAFETY NET</title>
+                <link rel="canonical" href="https://www.vetsafety.net/anxiety" />
+    </Helmet>
+
+        <div className='anxiety'>
 
                 <div className="anxiety-content">
                     <Fade top>
@@ -13,6 +20,7 @@ const Anxiety = () => {
                     </Fade>
             </div>
         </div>
+    </>
     )
 }
 

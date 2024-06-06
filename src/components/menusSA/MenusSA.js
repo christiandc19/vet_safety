@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 import "./MenusSA.css";
+import {Helmet} from "react-helmet";
 
 import logo from "../../assets/logo.png";
 
@@ -9,6 +10,12 @@ import logo from "../../assets/logo.png";
 const MenusSA = () => {
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>SUBSTANCE ABUSE PROGRAMS - VET SAFETY NET</title>
+        <link rel="canonical" href="https://www.vetsafety.net/substance-abuse" />
+    </Helmet>
+
           <div className="mh-cards-header container">
         <h1>
           VET SAFETY NET TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH

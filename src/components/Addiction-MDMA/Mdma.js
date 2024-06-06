@@ -1,11 +1,18 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
-
+import {Helmet} from "react-helmet";
 import './Mdma.css'
 
-const Fentanyl = () => {
+const MDMA = () => {
     return (
-        <div className='mdma submenu'>
+    <>
+    <Helmet>
+            <meta charSet="utf-8" />
+            <title>MDMA ADDICTION - VET SAFETY NET</title>
+            <link rel="canonical" href="https://www.vetsafety.net/mdma" />
+    </Helmet>
+
+        <div className='mdma'>
 
                 <div className="mdma-content">
                     <Fade top>
@@ -13,7 +20,8 @@ const Fentanyl = () => {
                     </Fade>
             </div>
         </div>
+    </>
     )
 }
 
-export default Fentanyl
+export default MDMA

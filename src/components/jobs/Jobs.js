@@ -1,16 +1,21 @@
 import React from 'react'
 import Fade from 'react-reveal/Fade';
+import {Helmet} from "react-helmet";
 
 import './Jobs.css'
 
-import JobSection from '../../components/jobs/JobSection'
 
-import Contact2 from '../contact/ContactForm'
 
 const Jobs = () => {
     return (
-        <>
-        <div className='jobs submenu'>
+<>
+        <Helmet>
+            <meta charSet="utf-8" />
+                <title>EMPLOYMENT PROGRAM - VET SAFETY NET</title>
+                <link rel="canonical" href="https://www.vetsafety.net/jobs" />
+        </Helmet>
+
+        <div className='jobs'>
 
                 <div className="jobs-content">
                     <Fade top>
@@ -18,9 +23,7 @@ const Jobs = () => {
                     </Fade>
                 </div>
             </div>
-        <JobSection />
-        <Contact2 />
-        </>
+</>
     )
 }
 

@@ -2,14 +2,18 @@ import React from 'react'
 
 import Navbar from '../components/navbar/Navbar'
 import Footer from '../components/footer/Footer'
-import JOBS from '../components/jobs/Jobs'
+import Job from '../components/jobs/Jobs'
+import JobSection from '../components/jobs/JobSection'
+import Contact from '../components/contact/ContactForm'
 
 
 const Jobs = () => {
   return (
     <>
     <Navbar /> 
-    <JOBS />
+    <Job />
+    <JobSection />
+    <Contact />
     <Footer />
      </>
   )

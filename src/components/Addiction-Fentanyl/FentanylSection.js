@@ -1,11 +1,19 @@
 import React from 'react'
 import ContactForm from '../contact/ContactForm'
-
+import {Helmet} from "react-helmet";
 import './FentanylSection.css'
 
 const FentanylSection = () => {
   return (
 <>
+
+<Helmet>
+            <meta charSet="utf-8" />
+            <title>FENTANYL ADDICTION - VET SAFETY NET</title>
+            <link rel="canonical" href="https://www.vetsafety.net/fentanyl" />
+</Helmet>
+
+
 <div className="fentanyl-section-header container">
                 <h1>FENTANYL</h1><br/>
                 <p>A highly addictive stimulant that affects the brain by elevating levels of dopamine (a chemical associated with reward or pleasure).
